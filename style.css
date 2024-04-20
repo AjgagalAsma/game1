@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ppp{
+    background-color: white;
+    color: palevioletred;
+    margin: 10px 470px;
+    padding: 5px;
+}
+.Con {
+    position: absolute;
+    margin-top: 0;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, rgb(214, 11, 255), aqua);
+}
+
+.container{
+    position: relative;
+    width: 160vh;
+    height: 80vh;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.308);
+}
+
+ .new {
+    position: absolute;
+    background: transparent;
+    border: none;
+    color: gray;
+    margin: 2% 45%;
+}
+
+.lance {
+    position: absolute;
+    background: transparent;
+    border: none;
+    color: gray;
+    margin: 35% 45%;
+}
+
+.pass {
+    position: absolute;
+    background: transparent;
+    border: none;
+    color: gray;
+    margin: 40% 46%;
+}
+
+.fa-solid, .fa-regular {
+    color: palevioletred;
+    padding: 2px;
+} 
+
+.player1 {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(236, 232, 232);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.player2 {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.player1 .p1, .player2 .p2 {
+    margin: 100px ;
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+}
+
+.player1 .p1 {
+    color: rgb(31, 30, 30);
+}
+
+.player1 .f1{
+    color: rgb(9, 228, 9);
+}
+
+.player2 .f2{
+    color: gray;
+}
+
+.player1 .sP1, .player2 .sP2{
+    margin: -80px ;
+    text-align: center;
+    font-size: 50px;
+    color: palevioletred;
+}
+
+.player1 .tempScoreP1, .player2 .tempScoreP2 {
+    margin: 150px ;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(247, 37, 107);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+
+.Des{
+    position: absolute;
+    margin: 18% 45%;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.712);
+}
+
+.Des{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.point {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: rgb(247, 37, 107)
+}
+
+.won{
+    position: absolute;
+    margin: 20% 30%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    background-color: red;
+    color: white;
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
